@@ -1,0 +1,13 @@
+# This is a Scala/Apache Spark project, not a Python project.
+# There are no pip-installable Python dependencies.
+#
+# JVM/build dependencies (see build.sbt) are managed by sbt and downloaded
+# automatically on first build:
+#   - Scala 2.12.10
+#   - Apache Spark 3.5.5 (spark-core, spark-sql)
+#   - Apache Hadoop client 3.4.1
+#   - com.github.rubigdata:warc-for-spark:0.3.0  (resolved via JitPack)
+#   - org.jsoup:jsoup:1.11.3
+#   - org.netpreserve:jwarc:0.30.0
+#
+# See README.md "Requirements" for the sbt/Java/cluster setup needed to run this.
